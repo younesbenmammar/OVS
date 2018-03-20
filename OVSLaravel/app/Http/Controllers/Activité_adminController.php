@@ -19,7 +19,7 @@ class Activité_adminController extends Controller
         $admin = Activité_admin::create($request->all());
         return redirect(route('admin.index', $admin));
         
-        
+       
     }
     
     public function create(){
