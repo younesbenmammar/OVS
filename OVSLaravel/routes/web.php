@@ -30,3 +30,10 @@ Route::get('/home', 'HomeController@index')->name('home');
 Route::group(['prefix' => 'Users'], function (){
     Route::resource('users', 'UserController');
 });
+Route::get('/accueil', function () {
+    return view('accueil');
+    });
+
+    Route::get('/activités', function () {
+        return view('activités');
+    });
