@@ -7,7 +7,7 @@
 SALUT
 
 @endsection
-@section('contenu')
+@section('content')
 
 	@foreach($users as $user)
 	

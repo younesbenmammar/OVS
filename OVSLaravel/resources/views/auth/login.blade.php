@@ -1,7 +1,10 @@
 @extends('layouts.app')
 
 @section('content')
+<div align="center">
+
 <div class="container">
+
     <div class="row">
         <div class="col-lg-6 col-md-offset-0">
             <div class="panel panel-default">
@@ -64,6 +67,7 @@
                 </div>
             </div>
         </div>
+    </div>
     </div>
 </div>
 @endsection

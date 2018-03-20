@@ -1,6 +1,12 @@
 @extends('template')
 
-@section('contenu')
+@section('header')
+<li><a href="{{route('utilisateur.create')}}" class="button special">Inscription</a></li>
+<li><a href="#" class="button special">Connection</a></li>
+@endsection
+
+
+@section('content')
 
 
 
@@ -92,3 +98,6 @@
 
 
 @endsection
+
+
+
