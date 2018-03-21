@@ -1,0 +1,10 @@
+#header{
+	position: fixed;
+	width:100%;
+	border: 10 solid black;
+}
+
+#footer{
+	float: left;
+	margin-right: 1%;
+}
