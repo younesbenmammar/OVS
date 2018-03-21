@@ -15,11 +15,13 @@
 		<script src="js/skel.min.js"></script>
 		<script src="js/skel-layers.min.js"></script>
 		<script src="js/init.js"></script>
-		<noscript>
+		
+			<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+		
 			<link rel="stylesheet" href="css/skel.css" />
 			<link rel="stylesheet" href="css/style.css" />
 			<link rel="stylesheet" href="css/style-xlarge.css" />
-		</noscript>
+			
 	</head>
 	<body id="top">
 
@@ -28,9 +30,7 @@
 				<h1><a href="#">OUT</a></h1>
 				<nav id="nav">
 					<ul>
-						<li><a href="/OVS/public/accueil">Home</a></li>
-						<li><a href="#" class="button special">Inscription</a></li>
-						<li><a href="#" class="button special">Connection</a></li>
+						@yield('header')
 					</ul>
 				</nav>
 			</header>
@@ -54,7 +54,7 @@
 							</div>
 						</div>
 						<div class="6u">
-							<h2>OUT, Le site qui vous fait sortir</h2>
+							<h2>OUT, le site qui vous fait sortir</h2>
 							<p>Ce site à été fait dans le cadre du projet WorkShop Sainté Capacity entre les filières Design Tech Académie et IRAM de Télécom St-Etienne. </p>
 						</div>
 					</div>

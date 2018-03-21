@@ -1054,6 +1054,7 @@
 	#footer {
 		background: #f8f8f8;
 		padding: 4em 0 6em 0;
+		margin-top: 25%;
 	}
 
 		#footer a {
@@ -1085,3 +1086,62 @@
 		#footer .icons a {
 			color: #bbb;
 		}
+		
+		/*page activités*/
+	#colibri{
+		margin-top: 3%;
+		padding-top: 5%;
+	}
+	#table1{
+	float: left;
+	margin-left: 1%;
+	}
+	
+	#table2{
+	float: right;
+	margin-right: 10%;
+	}
+	#table3{
+	float: right;
+	margin-right: 30%;
+	}
+	#habitant{
+	margin-top: 3%;
+	padding-top: 5%;
+	}
+	ul{
+	list-style-type: none;
+	}
+	#titleActivity{
+	margin-top: 2%;
+	margin-left: 1%;
+	}
+	#table4{
+	float: left;
+	margin-left: 1%;
+	}
+	
+	#table5{
+	float: right;
+	margin-right: 10%;
+	}
+	#table6{
+	float: right;
+	margin-right: 30%;
+	}
+	ul{
+	list-style-type: none;
+	}
+	#titleActivity2{
+	margin-top: 30%;
+	margin-left: 1%;
+	
+	}
+	
+	
+	
+	
+	
+		
+		
+		

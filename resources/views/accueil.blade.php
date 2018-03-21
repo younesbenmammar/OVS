@@ -1,5 +1,12 @@
 @extends('template')
 
+@section('header')
+<li><a href="{{route('utilisateur.create')}}" class="btn btn-light">Inscription</a></li>
+<button type="button" class="btn btn-light">Connexion</button>
+@endsection
+
+
+
 @section('content')
 
 <body id="top">
@@ -19,22 +26,22 @@
 			<section id="one" class="wrapper style1">
 				<header class="major">
 					<h2><p>Description site</p></h2>
-					<h2>Quelque example de sorties : </h2>
+					<h2>Quelques exemples de sorties : </h2>
 				</header>
 				<div class="container">
 					<div class="row">
 						<div class="4u">
 							<section class="special box">
 								<i class="icon fa-bicycle major"></i>
-								<h3>Sortie velo</h3>
-								<p>hier nous avons fait une sortie vélo sur la journée, heureusement que la pause du déjeuner nous à permis de reprendre du poil de la bete pour repartir.</p>
+								<h3>Sortie vélo</h3>
+								<p>Hier nous avons fait une sortie vélo sur la journée, heureusement que la pause du déjeuner nous à permis de reprendre du poil de la bête pour repartir.</p>
 							</section>
 						</div>
 						<div class="4u">
 							<section class="special box">
 								<i class="icon fa-film major"></i>
 								<h3>Sortie cinéma</h3>
-								<p>Fin de semaine détente car nous sommes allé au cinema voir le nouveau film Marvel qui vient de sortir.</p>
+								<p>Fin de semaine détente, car nous sommes allé au cinéma voir le nouveau film Marvel qui vient de sortir.</p>
 							</section>
 						</div>
 						<div class="4u">
@@ -47,7 +54,4 @@
 					</div>
 				</div>
 			</section>	
-
-
-
 @endsection
