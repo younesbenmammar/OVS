@@ -34,6 +34,6 @@ Route::get('/accueil', function () {
     return view('accueil');
     });
 
-    Route::get('/activités', function () {
-        return view('activités');
+Route::get('/activités', function () {
+    return view('activités');
     });
