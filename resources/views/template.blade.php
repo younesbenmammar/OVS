@@ -11,16 +11,16 @@
 		<meta name="description" content="" />
 		<meta name="keywords" content="" />
 		<!--[if lte IE 8]><script src="js/html5shiv.js"></script><![endif]-->
-		<script src="js/jquery.min.js"></script>
-		<script src="js/skel.min.js"></script>
-		<script src="js/skel-layers.min.js"></script>
-		<script src="js/init.js"></script>
+		<script src="/OVS/public/js/jquery.min.js"></script>
+		<script src="/OVS/public/js/skel.min.js"></script>
+		<script src="/OVS/public/js/skel-layers.min.js"></script>
+		<script src="/OVS/public/js/init.js"></script>
 		
 			<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 		
-			<link rel="stylesheet" href="css/skel.css" />
-			<link rel="stylesheet" href="css/style.css" />
-			<link rel="stylesheet" href="css/style-xlarge.css" />
+			<link rel="stylesheet" href="/OVS/public/css/skel.css" />
+			<link rel="stylesheet" href="/OVS/public/css/style.css" />
+			<link rel="stylesheet" href="/OVS/public/css/style-xlarge.css" />
 			
 	</head>
 	<body id="top">

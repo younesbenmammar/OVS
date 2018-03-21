@@ -19,9 +19,9 @@ Route::get('/', function () {
 
 Route::resource('utilisateur', 'UserController');
 
-Route::resource('/activité/admin', 'Activité_adminController');
+Route::resource('/activite/admin', 'Activité_adminController');
 
-Route::get('/activité/vote/{activiteId}', 'VoteController@store')->name('vote');
+Route::get('/activite/vote/{activiteId}', 'VoteController@store')->name('vote');
 
 Auth::routes();
 
@@ -34,6 +34,6 @@ Route::get('/accueil', function () {
     return view('accueil');
     });
 
-Route::get('/activités', function () {
-    return view('activités');
+Route::get('/activites', function () {
+    return view('activites');
     });
