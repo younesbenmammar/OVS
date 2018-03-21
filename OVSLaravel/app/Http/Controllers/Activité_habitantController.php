@@ -1,33 +1,36 @@
 <?php
+
+
+
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use App\Activité_admin;
 use App\Activité_habitant;
 
-class Activité_adminController extends Controller
+class Activité_habitantController extends Controller
 {
 
     public function index()
     {
-        $activites = Activité_admin::get();
-        
+       
         $habitants = Activité_habitant::get();
         
-        return view('admin.index', compact('activites', 'habitants'));
+        return view('admin.index', compact('habitants'));
     }
     
    
 
     public function store(Request $request)
     {
-        $admin = Activité_admin::create($request->all());
-        return redirect(route('admin.index', $admin));
+        $habitants = Activité_habitant::create($request->all());
+        return redirect(route('habitant.index', $habitants));
     }
+    
+    
 
     public function create()
     {
-        return view('admin.create');
+        return view('habitant.create');
     }
 
     public function update($id, Request $request)
