@@ -1088,9 +1088,9 @@
 		}
 		
 		/*page activités*/
-	#tableActivity{
-	margin-top: 5%;
-	
+	#colibri{
+		margin-top: 3%;
+		padding-top: 5%;
 	}
 	#table1{
 	float: left;
@@ -1105,15 +1105,16 @@
 	float: right;
 	margin-right: 30%;
 	}
+	#habitant{
+	margin-top: 3%;
+	padding-top: 5%;
+	}
 	ul{
 	list-style-type: none;
 	}
 	#titleActivity{
 	margin-top: 2%;
 	margin-left: 1%;
-	}
-	#tableActivity2{
-	margin-top: 5%;
 	}
 	#table4{
 	float: left;
@@ -1132,7 +1133,7 @@
 	list-style-type: none;
 	}
 	#titleActivity2{
-	margin-top: 25%;
+	margin-top: 30%;
 	margin-left: 1%;
 	
 	}

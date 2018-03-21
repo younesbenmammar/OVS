@@ -30,7 +30,6 @@
 				<h1><a href="#">OUT</a></h1>
 				<nav id="nav">
 					<ul>
-						<li><a href="/OVS/public/accueil">Home</a></li>
 						@yield('header')
 					</ul>
 				</nav>
@@ -55,7 +54,7 @@
 							</div>
 						</div>
 						<div class="6u">
-							<h2>OUT, Le site qui vous fait sortir</h2>
+							<h2>OUT, le site qui vous fait sortir</h2>
 							<p>Ce site à été fait dans le cadre du projet WorkShop Sainté Capacity entre les filières Design Tech Académie et IRAM de Télécom St-Etienne. </p>
 						</div>
 					</div>
